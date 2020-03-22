@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    grid-template:
+        "logo header" 80px
+        "menu content" 1fr
+        "menu footer" 30px
+        / 200px 1fr;
+    
+}
+
+.logo {
+    grid-area: logo;
+    background-color: rgb(17, 126, 216);
+}
+
+.header {
+    grid-area: header;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    background-color: white;
+}
+
+.menu-area {
+    grid-area: menu;
+    background-color: rgb(17, 126, 216);
+}
+
+.content {
+    grid-area: content;
+    background-color: whitesmoke;
+}
+
+.footer {
+    grid-area: footer;
+    border-top: 1px solid rgb(216, 216, 216);
+    background-color: white;
+}

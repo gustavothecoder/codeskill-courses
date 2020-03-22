@@ -1,0 +1,23 @@
+{
+  "name": "CodeSkill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-GustavoRibeiro/codeskill-courses.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Gustavo Ribeiro",
+    "email": "g2_ribeiro@hotmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-GustavoRibeiro/codeskill-courses/issues"
+  },
+  "homepage": "https://github.com/Dev-GustavoRibeiro/codeskill-courses#readme"
+}
