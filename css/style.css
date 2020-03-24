@@ -8,12 +8,40 @@ body {
         "menu content" 1fr
         "menu footer" 30px
         / 200px 1fr;
-    
 }
 
 .logo {
     grid-area: logo;
     background-color: rgb(17, 126, 216);
+}
+
+.logo>img {
+    position: relative;
+    width: 80px;
+    left: 109px;
+    top: 1px;
+}
+
+.logo-text1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    position: relative;
+    bottom: 85px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.logo-text2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 95px;
+    margin-left: 4px;
+    margin-top: 0;
 }
 
 .header {
