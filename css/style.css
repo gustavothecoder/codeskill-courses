@@ -17,37 +17,72 @@ body {
 
 .logo>img {
     position: relative;
-    width: 80px;
-    left: 109px;
+    width: 75px;
+    left: 100px;
     top: 1px;
 }
 
 .logo-text1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 35px;
     position: relative;
     bottom: 85px;
-    margin-left: 4px;
+    margin-left: 7px;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 7px;
 }
 
 .logo-text2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
     position: relative;
     bottom: 95px;
-    margin-left: 4px;
+    margin-left: 7px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header {
     grid-area: header;
     border-bottom: 1px solid rgb(216, 216, 216);
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.header>input {
+    position: relative;
+    width: 350px;
+    height: 25px;
+    left: 150px;
+    border-radius: 2px;
+    border: 1px solid rgb(218, 218, 218);
+    padding: 8px;
+    font-size: 18px;
+    outline: none;
+}
+
+.button-search {
+    position: relative;
+    height: 43px;
+    width: 43px;
+    margin-left: 149px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 0px;
+    border: 0;
+    background-color: rgb(17, 126, 216);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.fa-search {
+    color: white;
 }
 
 .menu-area {
