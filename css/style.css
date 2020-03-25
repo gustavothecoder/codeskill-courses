@@ -1,3 +1,7 @@
+* {
+    font-family: 'Fira Code', monospace;
+}
+
 body {
     display: grid;
     margin: 0;
@@ -53,6 +57,39 @@ body {
     flex-direction: row;
     justify-content: start;
     align-items: center;
+}
+
+header>a {
+    text-decoration: none;
+    margin: 0 20px;
+    position: absolute;
+}
+
+.button-forEnterprise {
+    color: rgb(34, 34, 34);
+    right: 275px;
+}
+
+.button-forEnterprise:hover {
+    color: rgb(50, 144, 231);
+}
+
+.button-signIn {
+    color: rgb(50, 144, 231);
+    right: 140px;
+}
+
+.button-signUp {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(17, 126, 216);
+    padding: 10px 15px;
+    border-radius: 2px;
+    right: 10px;
+}
+
+.button-signUp:hover {
+    background-color: rgb(11, 105, 182);
 }
 
 .header>input {
