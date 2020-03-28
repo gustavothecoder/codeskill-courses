@@ -145,9 +145,7 @@ header>a {
 }
 
 .menu>a:hover {
-    color: black;
-    background: linear-gradient(313deg, rgba(173,205,221,1) 0%, rgba(206,235,249,1)
-         35%, rgba(228,247,255,1) 66%, rgba(255,255,255,1) 100%);    
+    background-color: rgb(11, 105, 182);
 }
 
 .home-button {
