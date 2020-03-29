@@ -8,11 +8,16 @@ function configureLinks() {
 function navigate(hash) {
     if (!hash) return
 
-    const link = document.querySelector(`[link='${hash}']`);
+    // const link = document.querySelector(`[link='${hash}']`);
     const destiny = document.querySelector('[destiny-link]');
 
-    destiny.innerHTML = link;
-    markButtonAsSelected(hash);
+    const url = hash.substring(1)
+    fetch(url)
+        .then(resp => resp.text())
+        .then(html => {
+            destiny.innerHTML = html;
+            markButtonAsSelected(hash);
+        })
 }
 
 function markButtonAsSelected(hash) {
