@@ -36,4 +36,10 @@ function markButtonAsSelected(hash) {
     }
 }
 
+function initialPage() {
+    const home = document.getElementsByClassName('home-button')[0];
+    navigate(home.hash)
+}
+
 configureLinks();
+initialPage();
