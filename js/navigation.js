@@ -25,14 +25,14 @@ function markButtonAsSelected(hash) {
     links.forEach(link => {
         link.style.border = 'none';
         link.style.padding = '10px 15px';
-        link.style.color = 'white';
+        link.style.color = 'black';
     })
 
     const link = document.querySelector(`[link='${hash}']`);
     if (link) {
-        link.style.border = '2px solid #00BFFF';
+        link.style.border = '2px solid rgb(11, 105, 182)';
         link.style.padding = '8px 13px'
-        link.style.color = '#00BFFF';
+        link.style.color = 'rgb(11, 105, 182)';
     }
 }
 
