@@ -29,8 +29,7 @@
     font-size: 20px;
 }
 
-.initial-text>a {
-    text-decoration: none;
+.initial-text>button {
     font-size: 20px;
     font-weight: bold;
     color: rgb(17, 126, 216);
@@ -38,11 +37,13 @@
     padding: 20px 30px;
     position: relative;
     top: 30px;
+    border: none;
     border-radius: 2px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
-.initial-text>a:hover {
+.initial-text>button:hover {
     color: white;
     background-color: rgb(17, 126, 216);
 }

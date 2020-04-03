@@ -41,5 +41,13 @@ function initialPage() {
     navigate(home.hash)
 }
 
+function showSignIn() {
+    document.getElementsByClassName('login-area')[0].style.display = 'flex';
+}
+
+function closeSignIn() {
+    document.getElementsByClassName('login-area')[0].style.display = 'none';
+}
+
 configureLinks();
 initialPage();

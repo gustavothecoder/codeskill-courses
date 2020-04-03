@@ -31,6 +31,11 @@ header>a {
     position: absolute;
 }
 
+header>button {
+    margin: 0 20px;
+    position: absolute;
+}
+
 .logo {
     grid-area: logo;
     background-color: white;
@@ -110,15 +115,22 @@ header>a {
 .button-signIn {
     color: rgb(50, 144, 231);
     right: 140px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .button-signUp {
+    font-size: 16px;
     font-weight: bold;
     color: white;
     background-color: rgb(17, 126, 216);
     padding: 10px 15px;
     border-radius: 2px;
     right: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .button-signUp:hover {
@@ -126,6 +138,111 @@ header>a {
 }
 /*—————*/
 
+
+/* =sign in*/
+.login-area {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.loginLogo-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.close-button {
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    top: 35px;
+    left: 180px;
+    background-color: white;
+}
+
+.close-button:hover {
+    color: red;
+}
+
+.login-box {
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-facebook {
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    background-color: rgb(44, 102, 168);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    height: 70%;
+    margin: auto;
+    border-top: 1px solid rgb(218, 218, 218);
+}
+
+.login-form>label {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form>input {
+    border: 1px solid rgb(218, 218, 218);
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-form>a {
+    text-decoration: none;
+    position: relative;
+    left: 160px;
+    margin-top: 10px;
+    color: rgb(17, 126, 216);
+    font-weight: bold;
+}
+
+.login-form>a:hover {
+    color: rgb(9, 87, 151);
+}
+
+.login-form>button {
+    background-color: rgb(17, 126, 216);
+    cursor: pointer;
+    padding: 15px 0px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 30px;
+}
+/*—————*/
+
+
+/* =sign up*/
+/*—————*/
 
 /* =menu */
 .menu-area {
