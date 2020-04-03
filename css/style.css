@@ -371,7 +371,7 @@ header>button {
 }
 
 .social-networks {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     padding: 0px 5px;
 }
