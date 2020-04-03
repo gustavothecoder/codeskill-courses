@@ -49,5 +49,13 @@ function closeSignIn() {
     document.getElementsByClassName('login-area')[0].style.display = 'none';
 }
 
+function showSignUp() {
+    document.getElementsByClassName('signUp-area')[0].style.display = 'flex';
+}
+
+function closeSignUp() {
+    document.getElementsByClassName('signUp-area')[0].style.display = 'none';
+}
+
 configureLinks();
 initialPage();

@@ -21,7 +21,7 @@
         </button>
         <a href="#pages/forEnterprise.html" class="button-forEnterprise" onclick="navigate('#pages/forEnterprise.html')">For enterprise</a>
         <button class="button-signIn" onclick="showSignIn()">Sign In</button>
-        <button class="button-signUp">Sign Up</button>
+        <button class="button-signUp" onclick="showSignUp()">Sign Up</button>
     </header>
     <aside class="menu-area">
         <nav class="menu">
@@ -73,6 +73,27 @@
                 <input type="password" name="password" placeholder="Password">
                 <a href="#pages/forEnterprise.html" onclick="navigate('#pages/forEnterprise.html')">Forgot password?</a>
                 <button type="submit">Sign In</button>
+            </form>
+        </div>
+    </div>
+    <div class="signUp-area">
+        <header>
+            <p class="signUpLogo-text">C0D3 SKILL</p>
+        </header>
+        <button class="close-button" onclick="closeSignUp()">X</button>
+        <div class="signUp-box">
+            <h2>Sign Up</h2>
+            <button class="signUp-facebook">
+                <i class="fab fa-facebook-square"></i> Continue with Facebook
+            </button>
+            <form class="signUp-form" action="">
+                <label for="name">FULL NAME</label>
+                <input type="text" placeholder="Full name">
+                <label for="email">E-MAIL</label>
+                <input type="email" name="email" placeholder="E-mail">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Sign up for free</button>
             </form>
         </div>
     </div>
