@@ -1,0 +1,108 @@
+.courses-header>img {
+    width: 100%;
+    height: 200px;
+}
+
+.courses-header>h1 {
+    margin-left: 75px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 60px;
+    bottom: 100px;
+}
+
+.filter>button {
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+    background-color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.filter>button:hover {
+    color: rgb(50, 144, 231);
+}
+
+.courses-cards {
+    width: calc(100% - 100px);
+    height: 400px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+.course {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+.course:hover {
+    box-shadow: 0px 5px 20px -10px #000000;
+}
+
+.course>img {
+    width: 100%;
+    height: 125px;
+}
+
+.course>a {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+
+.course>h3 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.price-area {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 297px;
+    justify-content: center;
+}
+
+.currency {
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;  
+    margin-top: 6px;
+}
+
+.course>footer {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course-footer>p {
+    margin: 15px 15px;
+    font-weight: 500;
+}

@@ -1,3 +1,5 @@
+const main = document.getElementsByClassName('content')[0];
+
 function configureLinks() {
     document.querySelectorAll('[link]')
         .forEach(link => {
@@ -8,10 +10,13 @@ function configureLinks() {
 function navigate(hash) {
     if (!hash) return
 
-    // const link = document.querySelector(`[link='${hash}']`);
     const destiny = document.querySelector('[destiny-link]');
 
     const url = hash.substring(1)
+    if (url == 'pages/courses.html') 
+        main.style.backgroundColor = 'rgb(243, 243, 243)';
+    else 
+        main.style.backgroundColor = 'white';
     fetch(url)
         .then(resp => resp.text())
         .then(html => {
