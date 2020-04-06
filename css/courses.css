@@ -45,7 +45,7 @@
     height: 300px;
     width: 300px;
     background-color: white;
-    margin: 0 10px;
+    margin: 10px;
     transition: 0.2s;
 }
 
@@ -105,4 +105,21 @@
 .course-footer>p {
     margin: 15px 15px;
     font-weight: 500;
+}
+
+@media (max-width: 1366px) {
+    .courses-cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+    .courses-header {
+        height: 250px;
+    }
+
+    .courses-header>h1,
+    .filter {
+        margin-left: 10px;
+    }
 }
