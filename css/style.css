@@ -431,4 +431,81 @@ header>button {
         right: 10px;
     }
 }
+
+@media (max-width: 375px) and (max-height: 812px) {
+    body {
+        grid-template:
+            "logo header" 65px
+            "menu menu" 80px
+            " content content" 1fr
+            " footer footer" 30px
+            / 50px 1fr;
+    }
+
+    .content {
+        height: 100%;
+    }
+
+    .header>input,
+    .button-search,
+    .logo>p {
+        display: none;
+    }
+
+    .logo {
+        border: 0;
+    }
+
+    .logo>img {
+        width: 55px;
+        top: 5px;
+        left: 10px;
+    }
+
+    .menu-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgb(216, 216, 216);
+        border-right: 0;
+        border-bottom: 1px solid rgb(216, 216, 216);
+    }
+
+    .menu {
+        flex-direction: row;
+    }
+
+    .home-button {
+        margin-top: 0;
+    }
+
+    .social-networks {
+        bottom: 0;
+        height: 30px;
+    }
+}
+
+@media (max-width: 812px) and (max-height: 375px) {
+    .button-forEnterprise {
+        display: none;
+    }
+
+    .login-form,
+    .signUp-form {
+        height: 100%;
+    }
+
+    .signUp-form>label {
+        margin-top: 15px;
+    }
+
+    .signUp-form>button,
+    .signUp-facebook {
+        margin-top: 10px;
+    }
+
+    .close-button {
+        top: 100px;
+    }
+}
 /*—————*/

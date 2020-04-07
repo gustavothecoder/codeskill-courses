@@ -48,18 +48,26 @@ function initialPage() {
 
 function showSignIn() {
     document.getElementsByClassName('login-area')[0].style.display = 'flex';
+    window.onscroll = function() {
+        window.scrollTo(0, 0);
+    }
 }
 
 function closeSignIn() {
     document.getElementsByClassName('login-area')[0].style.display = 'none';
+    window.onscroll = function() {}
 }
 
 function showSignUp() {
     document.getElementsByClassName('signUp-area')[0].style.display = 'flex';
+    window.onscroll = function() {
+        window.scrollTo(0, 0);
+    }
 }
 
 function closeSignUp() {
     document.getElementsByClassName('signUp-area')[0].style.display = 'none';
+    window.onscroll = function() {}
 }
 
 configureLinks();
